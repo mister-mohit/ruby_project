@@ -1,0 +1,5 @@
+rails g migration add_views_to_posts views:integer
+rails g db:migrate
+rails g db:seed
+rails g controller pages home about
+rails g scaffold posts title:string body:text
